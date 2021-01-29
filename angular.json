@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "GoogleAnalytics": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GoogleAnalytics"
+    }
+  },
+  "defaultProject": "GoogleAnalytics",
+  "cli": {
+    "analytics": "e75abf32-590c-4fde-ba07-443c03e2929a"
+  }
 }
